@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <h3>Select your Dept</h3>
+            <label for="SE">Software Engineering</label>
+            <input type="checkbox" name="dept">
+            <label for="IT">Information Technology</label>
+            <input type="checkbox" name="dept">
+            <label for="CS">Comutor science</label>
+            <input type="checkbox" name="dept">
+        </div>
+        <div>
+            <h3>Select your favourite Subject</h3>
+            <label for="oop">Object Oriebted Programming</label>
+            <input type="radio" name="subject" id="oop">
+            <label for="DSA">Data Structor and Algo</label>
+            <input type="radio" name="subject" id="DSA">
+            <label for="CN">Computer Networking</label>
+            <input type="radio" name="subject" id="CN">
+        </div>
+        <div>
+            <h2>Select your hobby</h2>
+            <select name="hobby" id="hobby">
+                <option selected>select any</option>
+                <option value="Photo">Photography</option>
+                <option value="Coding">Coding</option>
+                <option value="Travel">Travelling</option>
+            </select>
+        </div>
+        <div>
+            <h2>Select the volume range</h2>
+            <input type="range" min="0" max="15" value="2" name="vol">
+        </div>
+        <div>
+            <label for="feed">Please give your valuable feedback here</label>
+            <textarea name="feedback" id="feed" cols="30" rows="10" placeholder="Give your feedback here"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
